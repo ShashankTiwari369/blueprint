@@ -1,0 +1,69 @@
+# Blueprint PM Context
+# ─────────────────────────────────────────────────────────────────────────────
+# Fill this in for your company/product. Blueprint loads it at the start of
+# every session — you only fill it once per project.
+#
+# Place this file in any directory where you'll use Blueprint:
+#   cp pm-context.yml.example pm-context.yml
+#   → then fill in your values
+#
+# Leave any field blank ("") if it doesn't apply. Blueprint will ask inline.
+# ─────────────────────────────────────────────────────────────────────────────
+
+company: ""                    # e.g. "Stripe", "Notion", "GrayQuest"
+product: ""                    # e.g. "Payment Links", "Docs", "Admin Panel"
+domain: ""                     # e.g. "developer tools", "B2B SaaS", "fintech/lending"
+
+# Regulatory/compliance context
+# Add if your domain has obligations Blueprint should flag (GDPR, RBI DLG, HIPAA, etc.)
+regulatory_context: ""         # e.g. "RBI Digital Lending Guidelines, DPDP (India 2023)"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Target users — who uses your product
+# ─────────────────────────────────────────────────────────────────────────────
+target_users:
+  - ""                         # e.g. "Inside Sales reps (100+ team, quota-carrying)"
+  - ""                         # e.g. "Customer Support agents (10–30 agents, Freshdesk)"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Key personas — the people your PRDs are written for
+# Add as many as relevant. Blueprint uses these in Phase 4 (PRD).
+# ─────────────────────────────────────────────────────────────────────────────
+personas:
+  - name: ""                   # e.g. "Inside Sales Rep"
+    role: ""                   # e.g. "Converts leads to loan disbursements"
+    key_pain_point: ""         # e.g. "Manual 4-hour lead upload process every morning"
+
+  - name: ""
+    role: ""
+    key_pain_point: ""
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Key baseline metrics — used in Phase 2 (Impact Estimation)
+# Saves you from hunting for numbers mid-session.
+# ─────────────────────────────────────────────────────────────────────────────
+metrics:
+  - name: ""                   # e.g. "Monthly support ticket volume"
+    baseline: ""               # e.g. "29,161 tickets/month (Feb 2026)"
+
+  - name: ""                   # e.g. "Feature adoption rate"
+    baseline: ""               # e.g. "23% of active users"
+
+  - name: ""
+    baseline: ""
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Competitors / alternatives — used in Phase 3 (Strategy) competitive research
+# ─────────────────────────────────────────────────────────────────────────────
+competitors:
+  - ""                         # e.g. "Zendesk"
+  - ""                         # e.g. "Freshdesk (current tool)"
+  - ""                         # e.g. "Manual spreadsheet process"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Team constraints — shapes realistic strategy choices in Phase 3
+# ─────────────────────────────────────────────────────────────────────────────
+team:
+  engineering: ""              # e.g. "2 backend engineers, 1 sprint = 2 weeks"
+  design: ""                   # e.g. "Shared design resource, 2 days/week available"
+  budget: ""                   # e.g. "No hard budget ceiling for internal tools"
